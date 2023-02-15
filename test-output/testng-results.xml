@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Testcase Execution Start...]]>
+    </line>
+    <line>
+      <![CDATA[Method Execution Successfully.....]]>
+    </line>
+    <line>
+      <![CDATA[Testcase Execution Start...]]>
+    </line>
+    <line>
+      <![CDATA[Expected Username : Jenny Joseph]]>
+    </line>
+    <line>
+      <![CDATA[Actual Username : Jenny Joseph]]>
+    </line>
+    <line>
+      <![CDATA[Method Execution Successfully.....]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-15T21:08:23 IST" name="Suite" finished-at="2023-02-15T21:08:46 IST" duration-ms="22969">
+    <groups>
+    </groups>
+    <test started-at="2023-02-15T21:08:23 IST" name="Test" finished-at="2023-02-15T21:08:46 IST" duration-ms="22969">
+      <class name="FaceBookVersion11Test.facebookTest">
+        <test-method is-config="true" signature="openfacebookurl()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-15T21:08:24 IST" name="openfacebookurl" finished-at="2023-02-15T21:08:34 IST" duration-ms="10247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openfacebookurl -->
+        <test-method is-config="true" signature="alertforTestcase()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-15T21:08:34 IST" name="alertforTestcase" finished-at="2023-02-15T21:08:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase Execution Start...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- alertforTestcase -->
+        <test-method signature="logintoFacebook()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-15T21:08:34 IST" name="logintoFacebook" finished-at="2023-02-15T21:08:34 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoFacebook -->
+        <test-method is-config="true" signature="alerfortestcase_end()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-15T21:08:34 IST" name="alerfortestcase_end" finished-at="2023-02-15T21:08:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Execution Successfully.....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- alerfortestcase_end -->
+        <test-method is-config="true" signature="alertforTestcase()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-15T21:08:34 IST" name="alertforTestcase" finished-at="2023-02-15T21:08:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase Execution Start...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- alertforTestcase -->
+        <test-method signature="verfiyUserNamefromHomePage()[pri:1, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-15T21:08:34 IST" name="verfiyUserNamefromHomePage" finished-at="2023-02-15T21:08:43 IST" duration-ms="8572" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Username : Jenny Joseph]]>
+            </line>
+            <line>
+              <![CDATA[Actual Username : Jenny Joseph]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verfiyUserNamefromHomePage -->
+        <test-method is-config="true" signature="alerfortestcase_end()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-15T21:08:43 IST" name="alerfortestcase_end" finished-at="2023-02-15T21:08:43 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Execution Successfully.....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- alerfortestcase_end -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-15T21:08:43 IST" name="closebrowser" finished-at="2023-02-15T21:08:46 IST" duration-ms="3373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- FaceBookVersion11Test.facebookTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
