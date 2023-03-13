@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Prachi\eclipse-workspace\FBVersion11\testng.xml</span>
+                    <span>C:\Users\Prachi\eclipse-workspace\FBVersion11\dataprovider_testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="FaceBookVersion11Test.facebookTest" class="method navigator-link" hash-for-method="logintoFacebook">logintoFacebook</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="FaceBookVersion11Test.FacebookLoginTestUsingDataProvider" class="method navigator-link" hash-for-method="VerifyLoginwithDiffCombination(valid Password and invalid username, gargerfg, Eqyvyda)">VerifyLoginwithDiffCombination(valid Password and invalid username, gargerfg, Eqyvyda)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="FaceBookVersion11Test.facebookTest" class="method navigator-link" hash-for-method="verfiyUserNamefromHomePage">verfiyUserNamefromHomePage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="FaceBookVersion11Test.FacebookLoginTestUsingDataProvider" class="method navigator-link" hash-for-method="VerifyLoginwithDiffCombination(invalid Password and invalid username, gargerfg, aehfhae)">VerifyLoginwithDiffCombination(invalid Password and invalid username, gargerfg, aehfhae)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="FaceBookVersion11Test.FacebookLoginTestUsingDataProvider" class="method navigator-link" hash-for-method="VerifyLoginwithDiffCombination(invalid Password and valid Username, mngr482972, sgsag)">VerifyLoginwithDiffCombination(invalid Password and valid Username, mngr482972, sgsag)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,21 +132,31 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">FaceBookVersion11Test.facebookTest</span>
+              <span class="class-name">FaceBookVersion11Test.FacebookLoginTestUsingDataProvider</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logintoFacebook">
-                  </a> <!-- logintoFacebook -->
-                  <span class="method-name">logintoFacebook</span>
+                  <a name="VerifyLoginwithDiffCombination(valid Password and invalid username, gargerfg, Eqyvyda)">
+                  </a> <!-- VerifyLoginwithDiffCombination(valid Password and invalid username, gargerfg, Eqyvyda) -->
+                  <span class="method-name">VerifyLoginwithDiffCombination</span>
+                  <span class="parameters">(valid Password and invalid username, gargerfg, Eqyvyda)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verfiyUserNamefromHomePage">
-                  </a> <!-- verfiyUserNamefromHomePage -->
-                  <span class="method-name">verfiyUserNamefromHomePage</span>
+                  <a name="VerifyLoginwithDiffCombination(invalid Password and invalid username, gargerfg, aehfhae)">
+                  </a> <!-- VerifyLoginwithDiffCombination(invalid Password and invalid username, gargerfg, aehfhae) -->
+                  <span class="method-name">VerifyLoginwithDiffCombination</span>
+                  <span class="parameters">(invalid Password and invalid username, gargerfg, aehfhae)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginwithDiffCombination(invalid Password and valid Username, mngr482972, sgsag)">
+                  </a> <!-- VerifyLoginwithDiffCombination(invalid Password and valid Username, mngr482972, sgsag) -->
+                  <span class="method-name">VerifyLoginwithDiffCombination</span>
+                  <span class="parameters">(invalid Password and valid Username, mngr482972, sgsag)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +164,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Prachi\eclipse-workspace\FBVersion11\testng.xml</span>
+            <span class="header-content">C:\Users\Prachi\eclipse-workspace\FBVersion11\dataprovider_testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -161,7 +176,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;FaceBookVersion11Test.facebookTest&quot;/&gt;
+      &lt;class name=&quot;FaceBookVersion11Test.FacebookLoginTestUsingDataProvider&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -201,20 +216,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verfiyUserNamefromHomePage')
-data.setCell(0, 2, 'FaceBookVersion11Test.facebookTest')
-data.setCell(0, 3, 9783);
+data.setCell(0, 1, 'VerifyLoginwithDiffCombination')
+data.setCell(0, 2, 'FaceBookVersion11Test.FacebookLoginTestUsingDataProvider')
+data.setCell(0, 3, 13271);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'logintoFacebook')
-data.setCell(1, 2, 'FaceBookVersion11Test.facebookTest')
-data.setCell(1, 3, 412);
+data.setCell(1, 1, 'VerifyLoginwithDiffCombination')
+data.setCell(1, 2, 'FaceBookVersion11Test.FacebookLoginTestUsingDataProvider')
+data.setCell(1, 3, 8642);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyLoginwithDiffCombination')
+data.setCell(2, 2, 'FaceBookVersion11Test.FacebookLoginTestUsingDataProvider')
+data.setCell(2, 3, 8110);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -225,13 +244,6 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verfiyUserNamefromHomePage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Expected Username : Jenny Joseph</span>
-                <span class="reporter-method-output">Actual Username : Jenny Joseph</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -247,39 +259,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">FaceBookVersion11Test.facebookTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">openfacebookurl</span>
+              <div class="chronological-class-name">FaceBookVersion11Test.FacebookLoginTestUsingDataProvider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginwithDiffCombination(invalid Password and valid Username, mngr482972, sgsag)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">alertforTestcase</span>
-                <span class="method-start">21842 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">logintoFacebook</span>
-                <span class="method-start">21844 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">alerfortestcase_end</span>
-                <span class="method-start">22262 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">alertforTestcase</span>
-                <span class="method-start">22272 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verfiyUserNamefromHomePage</span>
-                <span class="method-start">22273 ms</span>
+                <span class="method-name">VerifyLoginwithDiffCombination(valid Password and invalid username, gargerfg, Eqyvyda)</span>
+                <span class="method-start">13278 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">alerfortestcase_end</span>
-                <span class="method-start">32067 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">closebrowser</span>
-                <span class="method-start">32068 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginwithDiffCombination(invalid Password and invalid username, gargerfg, aehfhae)</span>
+                <span class="method-start">21926 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -6,8 +6,7 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="FaceBookVersion11Test.facebookTest"/>
+      <class name="FaceBookVersion11Test.FacebookLoginTestUsingDataProvider"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
-

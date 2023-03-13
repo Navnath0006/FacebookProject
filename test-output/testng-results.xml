@@ -1,81 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Testcase Execution Start...]]>
-    </line>
-    <line>
-      <![CDATA[Method Execution Successfully.....]]>
-    </line>
-    <line>
-      <![CDATA[Testcase Execution Start...]]>
-    </line>
-    <line>
-      <![CDATA[Expected Username : Jenny Joseph]]>
-    </line>
-    <line>
-      <![CDATA[Actual Username : Jenny Joseph]]>
-    </line>
-    <line>
-      <![CDATA[Method Execution Successfully.....]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-02-17T00:28:33 IST" name="Suite" finished-at="2023-02-17T00:29:25 IST" duration-ms="51397">
+  <suite started-at="2023-03-14T00:02:57 IST" name="Suite" finished-at="2023-03-14T00:03:27 IST" duration-ms="30132">
     <groups>
     </groups>
-    <test started-at="2023-02-17T00:28:33 IST" name="Test" finished-at="2023-02-17T00:29:25 IST" duration-ms="51397">
-      <class name="FaceBookVersion11Test.facebookTest">
-        <test-method is-config="true" signature="openfacebookurl()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-17T00:28:33 IST" name="openfacebookurl" finished-at="2023-02-17T00:28:55 IST" duration-ms="21822" status="PASS">
+    <test started-at="2023-03-14T00:02:57 IST" name="Test" finished-at="2023-03-14T00:03:27 IST" duration-ms="30132">
+      <class name="FaceBookVersion11Test.FacebookLoginTestUsingDataProvider">
+        <test-method signature="VerifyLoginwithDiffCombination(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FaceBookVersion11Test.FacebookLoginTestUsingDataProvider@22ef9844]" started-at="2023-03-14T00:02:57 IST" name="VerifyLoginwithDiffCombination" data-provider="data-set" finished-at="2023-03-14T00:03:10 IST" duration-ms="13271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid Password and valid Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mngr482972]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sgsag]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openfacebookurl -->
-        <test-method is-config="true" signature="alertforTestcase()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-17T00:28:55 IST" name="alertforTestcase" finished-at="2023-02-17T00:28:55 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Testcase Execution Start...]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- alertforTestcase -->
-        <test-method signature="logintoFacebook()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-17T00:28:55 IST" name="logintoFacebook" finished-at="2023-02-17T00:28:55 IST" duration-ms="412" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoFacebook -->
-        <test-method is-config="true" signature="alerfortestcase_end()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-17T00:28:55 IST" name="alerfortestcase_end" finished-at="2023-02-17T00:28:55 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method Execution Successfully.....]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- alerfortestcase_end -->
-        <test-method is-config="true" signature="alertforTestcase()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-17T00:28:55 IST" name="alertforTestcase" finished-at="2023-02-17T00:28:55 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Testcase Execution Start...]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- alertforTestcase -->
-        <test-method signature="verfiyUserNamefromHomePage()[pri:1, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-17T00:28:55 IST" name="verfiyUserNamefromHomePage" finished-at="2023-02-17T00:29:05 IST" duration-ms="9783" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected Username : Jenny Joseph]]>
-            </line>
-            <line>
-              <![CDATA[Actual Username : Jenny Joseph]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verfiyUserNamefromHomePage -->
-        <test-method is-config="true" signature="alerfortestcase_end()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-17T00:29:05 IST" name="alerfortestcase_end" finished-at="2023-02-17T00:29:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method Execution Successfully.....]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- alerfortestcase_end -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FaceBookVersion11Test.facebookTest@21282ed8]" started-at="2023-02-17T00:29:05 IST" name="closebrowser" finished-at="2023-02-17T00:29:25 IST" duration-ms="19284" status="PASS">
+        </test-method> <!-- VerifyLoginwithDiffCombination -->
+        <test-method signature="VerifyLoginwithDiffCombination(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FaceBookVersion11Test.FacebookLoginTestUsingDataProvider@22ef9844]" started-at="2023-03-14T00:03:10 IST" name="VerifyLoginwithDiffCombination" data-provider="data-set" finished-at="2023-03-14T00:03:19 IST" duration-ms="8642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid Password and invalid username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gargerfg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eqyvyda]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- FaceBookVersion11Test.facebookTest -->
+        </test-method> <!-- VerifyLoginwithDiffCombination -->
+        <test-method signature="VerifyLoginwithDiffCombination(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FaceBookVersion11Test.FacebookLoginTestUsingDataProvider@22ef9844]" started-at="2023-03-14T00:03:19 IST" name="VerifyLoginwithDiffCombination" data-provider="data-set" finished-at="2023-03-14T00:03:27 IST" duration-ms="8110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid Password and invalid username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gargerfg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aehfhae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginwithDiffCombination -->
+      </class> <!-- FaceBookVersion11Test.FacebookLoginTestUsingDataProvider -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
